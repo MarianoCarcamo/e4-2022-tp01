@@ -22,6 +22,13 @@
 defun copiaMemoria
     // Implementación aquí
     // R0: origen, R1: destino, R2: longitud
+    CBZ R2, 0f
+1:
+    ldrb R3, [R0], #1
+    strb R3, [R1], #1
+    subs R2, #1
+    bne 1b
+0:
     bx lr
 endfun copiaMemoria
 
