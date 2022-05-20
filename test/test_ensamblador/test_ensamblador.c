@@ -32,14 +32,14 @@ int main(void)
     RUN_TEST(copiaMemoria_debe_copiar_una_palabra);
     RUN_TEST(copiaMemoria_debe_copiar_una_palabra_mal_alineada);
     
-    // RUN_TEST(copiaCadena_debe_copiar_una_cadena);
-    // RUN_TEST(copiaCadena_debe_respetar_el_espacio_de_destino); mirar terminador nulo y R2 
+    RUN_TEST(copiaCadena_debe_copiar_una_cadena);
+    RUN_TEST(copiaCadena_debe_respetar_el_espacio_de_destino); //mirar terminador nulo y R2 
     
-    // RUN_TEST(mayusculaEnLugar_debe_pasar_a_mayuscula_una_cadena);
-    // RUN_TEST(mayusculaEnLugar_debe_respetar_la_longitud_maxima);
+    RUN_TEST(mayusculaEnLugar_debe_pasar_a_mayuscula_una_cadena);
+    RUN_TEST(mayusculaEnLugar_debe_respetar_la_longitud_maxima);
     
-    // RUN_TEST(minusculaEnLugar_debe_pasar_a_minuscula_una_cadena);
-    // RUN_TEST(minusculaEnLugar_debe_respetar_la_longitud_maxima);
+    RUN_TEST(minusculaEnLugar_debe_pasar_a_minuscula_una_cadena);
+    RUN_TEST(minusculaEnLugar_debe_respetar_la_longitud_maxima);
     return UNITY_END();   
 }
 
